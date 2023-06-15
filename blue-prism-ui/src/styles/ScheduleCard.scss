@@ -1,0 +1,87 @@
+@import "variables";
+
+.schedule-card {
+  width: 90%;
+  background-color: $schedule-card-bck-color;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px $schedule-card-shadow;
+
+  &:hover {
+    background-color: $schedule-card-bck-color-hover;
+    box-shadow: 0 4px 8px $schedule-card-shadow-dark;
+  }
+
+  &.selected {
+    background-color: $schedule-card-bck-color-selected;
+    box-shadow: 0 4px 8px $schedule-card-shadow-dark;
+  }
+
+  &.retired {
+    opacity: 0.7;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  &__field {
+    align-items: center;
+    margin-bottom: 8px;
+
+    &-label {
+      font-weight: bold;
+      margin-right: 8px;
+      min-width: 100px;
+    }
+
+    &-value {
+      margin: 0;
+      font-size: 14px;
+      color: $black;
+    }
+  }
+
+  &__details {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+
+    &__status {
+      margin: 0;
+      font-size: 14px;
+      color: $grey;
+    }
+
+    &__button-container {
+      margin-left: 16px;
+    }
+  }
+
+  &__toggle-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: $button-bck-color;
+    color: $black;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $button-bck-color-hover;
+    }
+  }
+}

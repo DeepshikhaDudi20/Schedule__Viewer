@@ -1,0 +1,18 @@
+@import "variables";
+
+.schedule-field {
+  align-items: center;
+  margin-bottom: 8px;
+
+  &__label {
+    margin-right: 8px;
+    font-weight: bold;
+    min-width: 100px;
+  }
+
+  &__value {
+    margin: 0;
+    font-size: 14px;
+    color: $black;
+  }
+}

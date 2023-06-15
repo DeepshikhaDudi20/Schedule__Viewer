@@ -1,0 +1,22 @@
+@import "variables";
+
+.schedule-list {
+  flex-basis: 25%;
+  max-width: 25%;
+  min-width: 300px;
+  background-color: $schedule-list-bck-color;
+  color: $black;
+  border-radius: 4px;
+  padding: 16px;
+  margin-right: 16px;
+  overflow-y: auto;
+  height: 600px;
+  border: 1px solid $black; 
+
+  &__header {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+}
+

@@ -1,0 +1,29 @@
+@import "variables";
+
+.select-filter {
+    margin-top: 8px;
+  
+    &__label {
+      margin-right: 8px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  
+    &__select {
+      padding: 8px;
+      border-radius: 4px;
+      background-color: $white;
+      font-size: 14px;
+      width: 105px;
+  
+      &:hover {
+        background-color: $white;
+      }
+  
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px $white;
+      }
+    }
+  }
+  

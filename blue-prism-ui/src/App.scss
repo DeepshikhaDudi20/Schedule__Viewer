@@ -1,0 +1,45 @@
+@import "../src/styles/variables.scss";
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden; 
+  max-width: 100%;
+  background-color: $charcoal;
+
+  &__header {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    padding: 16px;
+    background-color: $charcoal;
+    color: $white;
+  }
+
+  &__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    overflow-y: auto; 
+    padding: 0 16px; 
+  }
+
+  &__footer {
+    color: $white;
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+}

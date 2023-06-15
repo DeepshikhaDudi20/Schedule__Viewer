@@ -1,0 +1,13 @@
+.schedule-viewer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    flex-grow: 1;
+    height: 100%;
+    margin: 15px 30px;
+    overflow-x: hidden;
+    padding: 0 16px;
+    margin: 5px 16px;
+  }
