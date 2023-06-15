@@ -92,6 +92,6 @@ page to the content without having to go through all the navigation links (best 
     - npm run test
 
 ## Screenshots
-![Screenshot](https://github.com/DeepshikhaDudi20/schedule_viewer/blob/master/app-screenshots/App_Layout.png)
-![Screenshot](https://github.com/DeepshikhaDudi20/schedule_viewer/blob/master/app-screenshots/LightHouse.png)
-![Screenshot](https://github.com/DeepshikhaDudi20/schedule_viewer/blob/master/app-screenshots/Accessibility.png)
+![Screenshot](https://github.com/DeepshikhaDudi20/Schedule__Viewer/blob/master/app-screenshots/App_Layout.png)
+![Screenshot](https://github.com/DeepshikhaDudi20/Schedule__Viewer/blob/master/app-screenshots/LightHouse.png)
+![Screenshot](https://github.com/DeepshikhaDudi20/Schedule__Viewer/blob/master/app-screenshots/Accessibility.png)
